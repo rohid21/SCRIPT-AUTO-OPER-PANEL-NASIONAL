@@ -38,7 +38,8 @@ $rate_asli = $rate+500; //setting penambahan harga
             echo "Service Sudah Ada Di database => $service | $id \n <br />";
         } else {
            
-$insert=$conn->query("INSERT INTO services_pulsa (sid,operator,layanan,harga, status, pid, provider) VALUES ('$id','$operator','$layanan','$rate_asli','Normal','$id','NASIONAL PULSA')");//Memasukan Kepada Database (OPTIONAL)
+$insert=$conn->query("INSERT INTO services_pulsa (sid,operator,layanan,harga, status, pid, provider) VALUES ('$id','$operator','$layanan','$rate_asli','Normal','$id','NASIONAL PULSA')");
+//Sesuaikan database anda (OPTIONAL)
 if($insert == TRUE){
 echo"SUKSES INSERT -> Kategori : $operator || SID : $id || Layanan :$layanan | Harga : $rate_asli<br />";
 }else{
