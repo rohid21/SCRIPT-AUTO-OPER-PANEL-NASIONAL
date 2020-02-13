@@ -1,6 +1,3 @@
-# SCRIPT-AUTO-OPER-PANEL-NASIONAL
-KUMPULAN SCRIPT OPER NASIONAL
-
 Script Auto Oper Nasional Get (Mendapatkan Layanan) Order (Membuat Pesanan) Status (Mengecek Status Orderan)
 
 Bagi Kalian Yg ingin Membuat Panel Dan Mengambil Layanan Di Kami Karna Kami Adalah Penyedia Jasa H2H Termurah Bagi Kalian
