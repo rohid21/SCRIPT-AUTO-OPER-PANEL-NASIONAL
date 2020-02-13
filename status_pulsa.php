@@ -25,7 +25,7 @@ $ch = curl_init();
     $json_result = json_decode($chresult);
 //end curl
  
-      //check provider apakah nespedia dan memasukan result ke variabel
+      //check provider apakah nasional dan memasukan result ke variabel
       if ($provider == "NASIONAL-PULSA") {
           $status = $json_result['data']['status'];
           $catatan = $json_result['data']['catatan'];
