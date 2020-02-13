@@ -41,7 +41,8 @@ $rate_asli = $rate + 500; //setting penambahan harga
             echo "Service Sudah Ada Di database => $layanan<br />";
         } else {
             
-$insert=$conn->query("INSERT INTO services (sid, kategori, layanan, catatan, min, max, harga, status, pid, provider) VALUES ('$id','$kategori','$layanan','$catatan','$min','$max','$rate_asli','Active','$id','NASIONAL SOSMED')");//Memasukan Kepada Database (OPTIONAL)
+$insert=$conn->query("INSERT INTO services (sid, kategori, layanan, catatan, min, max, harga, status, pid, provider) VALUES ('$id','$kategori','$layanan','$catatan','$min','$max','$rate_asli','Active','$id','NASIONAL SOSMED')");
+//Sesuaikan database anda(OPTIONAL)
 if($insert == TRUE){
 echo"SUKSES INSERT LAYANAN -> Kategori : $kategori || SID : $id || Layanan :$layanan || Min :$min || Max : $max ||Harga : $rate_asli || Catatan : $catatan <br />";
 }else{
