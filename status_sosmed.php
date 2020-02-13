@@ -25,7 +25,7 @@ $ch = curl_init();
     $json_result = json_decode($chresult);
 //end curl
  
-      //check provider apakah nespedia dan memasukan result ke variabel
+      //check provider apakah nasional dan memasukan result ke variabel
       if ($provider == "NASIONAL-SOSMED") {
           $status = $json_result['data']['status'];
           $u_start = ($json_result['data']['start_count'] == null) ? "0" : $json_result['data']['start_count'];
